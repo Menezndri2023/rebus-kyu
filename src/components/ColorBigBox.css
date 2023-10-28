@@ -1,0 +1,12 @@
+/* .Component{
+    display: grid;
+    grid-template-columns: repeat(5,100px)  ;
+    grid-template-rows: repeat(5,100px) ;
+     ;
+} */
+.Component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

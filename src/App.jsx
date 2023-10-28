@@ -1,5 +1,6 @@
 import './App.css'
-import Box from './components/Box';
+// import Box from './components/Box';
+import ColorBigBox from './components/ColorBigBox';
 function App() {
   const colors = [
     "#FF5722",
@@ -20,7 +21,7 @@ function App() {
   ];
   return (
     <>
-      <Box colors={colors}/>
+      <ColorBigBox colors={colors}/>
     </>
   )
 }
